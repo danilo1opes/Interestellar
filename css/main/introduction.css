@@ -1,0 +1,46 @@
+.introduction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+}
+
+.btt-explore {
+  padding: 15px 20px;
+  background-color: var(--cor-7);
+  color: var(--cor-0);
+  border: none;
+  border-radius: 10px;
+  margin-top: 20px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+@media (max-width: 767px) {
+  .introduction {
+    height: 110vh;
+  }
+  .introduction h1 {
+    font-size: 3.2rem;
+  }
+  .introduction p {
+    font-size: 1.2rem;
+    margin: 10px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+  .introduction h1 {
+    font-size: 7rem;
+  }
+  .introduction p {
+    font-size: 2rem;
+    margin: 10px;
+  }
+  .btt-explore {
+    padding: 15px 25px;
+    font-size: 1.4rem;
+  }
+}

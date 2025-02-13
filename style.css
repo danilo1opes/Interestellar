@@ -5,6 +5,9 @@
 @import './css/global/global.css';
 @import './css/global/footer.css';
 
+/* Main */
+@import './css/main/introduction.css';
+
 /* Components */
 @import './css/components/typograph.css';
 @import './css/components/color.css';

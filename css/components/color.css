@@ -6,6 +6,7 @@
   --cor-4: #0f081b;
   --cor-5: #101827;
   --cor-6: #000;
+  --cor-7: #2463eb;
 }
 
 .color {
@@ -34,4 +35,8 @@
 
 .color-6 {
   color: var(--cor-6);
+}
+
+.color-7 {
+  color: var(--cor-7);
 }
