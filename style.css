@@ -7,6 +7,7 @@
 
 /* Main */
 @import './css/main/introduction.css';
+@import './css/main/dimension.css';
 
 /* Components */
 @import './css/components/typograph.css';

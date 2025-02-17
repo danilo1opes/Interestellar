@@ -15,7 +15,12 @@
   margin-top: 20px;
   font-family: 'Nunito', sans-serif;
   font-weight: 400;
+  cursor: pointer;
   font-size: 1rem;
+}
+
+.btt-explore:hover {
+  background-color: #0d52e6;
 }
 
 @media (max-width: 767px) {
