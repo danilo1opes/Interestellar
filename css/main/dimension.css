@@ -64,7 +64,6 @@
 }
 
 .cards::before {
-  background-color: #513eba;
   top: 0;
   transform: rotate(-15deg);
 }
@@ -73,4 +72,20 @@
   background-color: #1f2937;
   top: 0;
   transform: rotate(0deg);
+}
+
+#bg-01::before {
+  background: linear-gradient(to right, #513eba, #2f2278);
+}
+
+#bg-02::before {
+  background: linear-gradient(to right, #1f6684, #2156ad);
+}
+
+#bg-03::before {
+  background: linear-gradient(to right, #a35023, #a33223);
+}
+
+.cards:last-child::before {
+  display: none;
 }
