@@ -17,6 +17,7 @@
 .orbital-cards {
   position: relative;
   border-radius: 10px;
+  margin-bottom: 60px;
 }
 
 .orbital-cards img {

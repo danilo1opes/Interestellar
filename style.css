@@ -9,6 +9,7 @@
 @import './css/main/introduction.css';
 @import './css/main/dimension.css';
 @import './css/main/orbital.css';
+@import './css/main/team.css';
 
 /* Components */
 @import './css/components/typograph.css';
