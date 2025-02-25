@@ -68,3 +68,35 @@
 .social-icons a img:hover {
   transform: scale(1.1);
 }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .team-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .clip {
+    display: flex;
+    justify-content: center;
+  }
+  .team-imgs img {
+    width: 330px;
+  }
+}
+@media (max-width: 767px) {
+  .team-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .team h1 {
+    font-size: 3.2rem;
+  }
+  .team-imgs img {
+    width: 300px;
+  }
+  .card-team {
+    text-align: center;
+  }
+}
